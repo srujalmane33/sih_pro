@@ -23,7 +23,7 @@ export default function ZoneSummary({ zones, selectedZone, onSelectZone }) {
         </div>
       </div>
       <div className="p-4">
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-3 gap-3 max-h-[260px] overflow-y-auto pr-1">
           {zones.map((zone) => {
             const r = riskConfig[zone.shortfall_risk];
             const isSelected = selectedZone.zone_id === zone.zone_id;
