@@ -1,0 +1,110 @@
+/* ─── Embedded Dataset ─── */
+export const INITIAL_ZONES = [
+  {
+    zone_id: "ZONE-A (Dongri Buzurg)",
+    latitude: 21.53,
+    longitude: 79.68,
+    reserve_potential: "HIGH",
+    reserve_score: 87.4,
+    shortfall_risk: "LOW",
+    target_production: 42000,
+    predicted_production: 41200,
+    rainfall_mm: 35.2,
+    soil_moisture_pct: 38.0,
+    equipment_downtime_hrs: 4.5,
+    ndvi: 0.32,
+    recommendations: [
+      "Operations nominal. Maintain existing extraction schedules.",
+      "Optimal weather window: Continue active haulage on primary pit roads.",
+    ],
+    production_history: [
+      { month: "Apr", actual: 39000, target: 40000 },
+      { month: "May", actual: 41000, target: 41000 },
+      { month: "Jun", actual: 41500, target: 42000 },
+      { month: "Jul (Pred)", actual: 41200, target: 42000 },
+    ],
+  },
+  {
+    zone_id: "ZONE-B (Tirodi Mine)",
+    latitude: 21.68,
+    longitude: 79.71,
+    reserve_potential: "MEDIUM",
+    reserve_score: 62.1,
+    shortfall_risk: "MEDIUM",
+    target_production: 38000,
+    predicted_production: 34800,
+    rainfall_mm: 68.0,
+    soil_moisture_pct: 59.2,
+    equipment_downtime_hrs: 18.0,
+    ndvi: 0.41,
+    recommendations: [
+      "Schedule preventive maintenance on hydraulic excavators.",
+      "Monitor pit slope drainage due to moderate soil moisture saturation.",
+    ],
+    production_history: [
+      { month: "Apr", actual: 36000, target: 37000 },
+      { month: "May", actual: 37500, target: 38000 },
+      { month: "Jun", actual: 35000, target: 38000 },
+      { month: "Jul (Pred)", actual: 34800, target: 38000 },
+    ],
+  },
+  {
+    zone_id: "ZONE-C (Balaghat Pit 4)",
+    latitude: 21.8,
+    longitude: 80.18,
+    reserve_potential: "LOW",
+    reserve_score: 34.8,
+    shortfall_risk: "HIGH",
+    target_production: 40000,
+    predicted_production: 30500,
+    rainfall_mm: 114.5,
+    soil_moisture_pct: 82.3,
+    equipment_downtime_hrs: 36.2,
+    ndvi: 0.52,
+    recommendations: [
+      "Critical shortfall alert: Shift production quota to Zone-A reserve stockpiles.",
+      "Divert heavy haulers away from waterlogged western bench ramps.",
+      "Emergency maintenance required: 36+ machine downtime hours exceeded threshold.",
+    ],
+    production_history: [
+      { month: "Apr", actual: 38000, target: 39000 },
+      { month: "May", actual: 35000, target: 39000 },
+      { month: "Jun", actual: 31000, target: 40000 },
+      { month: "Jul (Pred)", actual: 30500, target: 40000 },
+    ],
+  },
+];
+
+export const riskConfig = {
+  LOW: {
+    color: "#22c55e",
+    badgeBg: "bg-emerald-100",
+    badgeText: "text-emerald-700",
+    border: "border-emerald-300",
+    dot: "bg-emerald-500",
+  },
+  MEDIUM: {
+    color: "#eab308",
+    badgeBg: "bg-amber-100",
+    badgeText: "text-amber-700",
+    border: "border-amber-300",
+    dot: "bg-amber-500",
+  },
+  HIGH: {
+    color: "#ef4444",
+    badgeBg: "bg-red-100",
+    badgeText: "text-red-700",
+    border: "border-red-300",
+    dot: "bg-red-500",
+  },
+};
+
+export const sidebarItems = [
+  { icon: "Home", label: "Home", active: true, sub: ["Lorem Ipsum", "Lorem Ipsum"] },
+  { icon: "LayoutDashboard", label: "Dashboard Panel" },
+  { icon: "MessageSquare", label: "Chat & Notifications", badge: 14 },
+  { icon: "CalendarDays", label: "Schedule" },
+  { icon: "Settings", label: "Administrative Settings" },
+  { icon: "CreditCard", label: "Subscription" },
+  { icon: "LogOut", label: "Log Out" },
+];

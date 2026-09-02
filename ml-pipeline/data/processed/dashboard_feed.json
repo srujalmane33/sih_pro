@@ -1,0 +1,242 @@
+[
+  {
+    "zone_id": "ZONE-A (Dongri Buzurg)",
+    "latitude": 21.53,
+    "longitude": 79.68,
+    "reserve_potential": "HIGH",
+    "reserve_score": 80.9,
+    "shortfall_risk": "HIGH",
+    "target_production": 40669,
+    "predicted_production": 30710,
+    "rainfall_mm": 33.1,
+    "soil_moisture_pct": 35.0,
+    "equipment_downtime_hrs": 15.6,
+    "ndvi": 0.32,
+    "recommendations": [
+      "Preventive servicing due on primary haul trucks and loaders.",
+      "Severe shortfall risk: Offset quotas via secondary high-capacity zones."
+    ],
+    "production_history": [
+      {
+        "month": "Apr",
+        "actual": 29174,
+        "target": 40669
+      },
+      {
+        "month": "May",
+        "actual": 30095,
+        "target": 40669
+      },
+      {
+        "month": "Jun",
+        "actual": 28253,
+        "target": 40669
+      },
+      {
+        "month": "Jul (Pred)",
+        "actual": 30710,
+        "target": 40669
+      }
+    ]
+  },
+  {
+    "zone_id": "ZONE-B (Tirodi Mine)",
+    "latitude": 21.68,
+    "longitude": 79.71,
+    "reserve_potential": "MEDIUM",
+    "reserve_score": 61.1,
+    "shortfall_risk": "HIGH",
+    "target_production": 40248,
+    "predicted_production": 31203,
+    "rainfall_mm": 35.6,
+    "soil_moisture_pct": 35.5,
+    "equipment_downtime_hrs": 14.0,
+    "ndvi": 0.33,
+    "recommendations": [
+      "Preventive servicing due on primary haul trucks and loaders.",
+      "Severe shortfall risk: Offset quotas via secondary high-capacity zones."
+    ],
+    "production_history": [
+      {
+        "month": "Apr",
+        "actual": 29642,
+        "target": 40248
+      },
+      {
+        "month": "May",
+        "actual": 30578,
+        "target": 40248
+      },
+      {
+        "month": "Jun",
+        "actual": 28706,
+        "target": 40248
+      },
+      {
+        "month": "Jul (Pred)",
+        "actual": 31203,
+        "target": 40248
+      }
+    ]
+  },
+  {
+    "zone_id": "ZONE-C (Balaghat Pit 4)",
+    "latitude": 21.8,
+    "longitude": 80.18,
+    "reserve_potential": "LOW",
+    "reserve_score": 37.9,
+    "shortfall_risk": "HIGH",
+    "target_production": 40602,
+    "predicted_production": 31374,
+    "rainfall_mm": 32.7,
+    "soil_moisture_pct": 35.5,
+    "equipment_downtime_hrs": 14.8,
+    "ndvi": 0.32,
+    "recommendations": [
+      "Preventive servicing due on primary haul trucks and loaders.",
+      "Severe shortfall risk: Offset quotas via secondary high-capacity zones."
+    ],
+    "production_history": [
+      {
+        "month": "Apr",
+        "actual": 29805,
+        "target": 40602
+      },
+      {
+        "month": "May",
+        "actual": 30747,
+        "target": 40602
+      },
+      {
+        "month": "Jun",
+        "actual": 28864,
+        "target": 40602
+      },
+      {
+        "month": "Jul (Pred)",
+        "actual": 31374,
+        "target": 40602
+      }
+    ]
+  },
+  {
+    "zone_id": "ZONE-D (Gumgaon)",
+    "latitude": 21.38,
+    "longitude": 79.03,
+    "reserve_potential": "MEDIUM",
+    "reserve_score": 72.7,
+    "shortfall_risk": "HIGH",
+    "target_production": 40891,
+    "predicted_production": 30227,
+    "rainfall_mm": 36.0,
+    "soil_moisture_pct": 36.6,
+    "equipment_downtime_hrs": 17.7,
+    "ndvi": 0.32,
+    "recommendations": [
+      "Preventive servicing due on primary haul trucks and loaders.",
+      "Severe shortfall risk: Offset quotas via secondary high-capacity zones."
+    ],
+    "production_history": [
+      {
+        "month": "Apr",
+        "actual": 28716,
+        "target": 40891
+      },
+      {
+        "month": "May",
+        "actual": 29623,
+        "target": 40891
+      },
+      {
+        "month": "Jun",
+        "actual": 27809,
+        "target": 40891
+      },
+      {
+        "month": "Jul (Pred)",
+        "actual": 30227,
+        "target": 40891
+      }
+    ]
+  },
+  {
+    "zone_id": "ZONE-E (Kandri)",
+    "latitude": 21.42,
+    "longitude": 79.27,
+    "reserve_potential": "MEDIUM",
+    "reserve_score": 51.2,
+    "shortfall_risk": "HIGH",
+    "target_production": 40614,
+    "predicted_production": 31283,
+    "rainfall_mm": 30.7,
+    "soil_moisture_pct": 34.0,
+    "equipment_downtime_hrs": 14.3,
+    "ndvi": 0.31,
+    "recommendations": [
+      "Preventive servicing due on primary haul trucks and loaders.",
+      "Severe shortfall risk: Offset quotas via secondary high-capacity zones."
+    ],
+    "production_history": [
+      {
+        "month": "Apr",
+        "actual": 29719,
+        "target": 40614
+      },
+      {
+        "month": "May",
+        "actual": 30657,
+        "target": 40614
+      },
+      {
+        "month": "Jun",
+        "actual": 28780,
+        "target": 40614
+      },
+      {
+        "month": "Jul (Pred)",
+        "actual": 31283,
+        "target": 40614
+      }
+    ]
+  },
+  {
+    "zone_id": "ZONE-F (Mansar)",
+    "latitude": 21.4,
+    "longitude": 79.28,
+    "reserve_potential": "MEDIUM",
+    "reserve_score": 66.9,
+    "shortfall_risk": "HIGH",
+    "target_production": 40270,
+    "predicted_production": 30016,
+    "rainfall_mm": 35.1,
+    "soil_moisture_pct": 35.7,
+    "equipment_downtime_hrs": 17.2,
+    "ndvi": 0.32,
+    "recommendations": [
+      "Preventive servicing due on primary haul trucks and loaders.",
+      "Severe shortfall risk: Offset quotas via secondary high-capacity zones."
+    ],
+    "production_history": [
+      {
+        "month": "Apr",
+        "actual": 28515,
+        "target": 40270
+      },
+      {
+        "month": "May",
+        "actual": 29416,
+        "target": 40270
+      },
+      {
+        "month": "Jun",
+        "actual": 27615,
+        "target": 40270
+      },
+      {
+        "month": "Jul (Pred)",
+        "actual": 30016,
+        "target": 40270
+      }
+    ]
+  }
+]
